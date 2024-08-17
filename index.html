@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Restaurante</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema de Restaurante</h1>
+        <h2>Escolha seus itens</h2>
+
+        <form id="menu">
+            <label><input type="checkbox" value="15.00"> Bife a Cavalo - R$15,00</label>
+            <label><input type="checkbox" value="8.00"> Sopa - R$8,00</label>
+            <label><input type="checkbox" value="12.00"> Filé Mignon - R$12,00</label>
+            <label><input type="checkbox" value="15.00"> Bife a Milanesa - R$15,00</label>
+            <label><input type="checkbox" value="7.50"> Frango Comum - R$7,50</label>
+            <label><input type="checkbox" value="12.00"> Frango Empanado - R$12,00</label>
+            <label><input type="checkbox" value="12.50"> Linguiça Toscana - R$12,50</label>
+            <label><input type="checkbox" value="14.00"> Linguiça Calabresa - R$14,00</label>
+            <label><input type="checkbox" value="5.00"> Legumes - R$5,00</label>
+            <label><input type="checkbox" value="2.50"> Refrigerante - R$2,50</label>
+            <label><input type="checkbox" value="1.50"> Suco - R$1,50</label>
+
+            <h2>Total: R$<span id="total">0.00</span></h2>
+
+            <input type="number" id="payment" placeholder="Digite o valor pago">
+            <h2>Troco: R$<span id="troco">0.00</span></h2>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
